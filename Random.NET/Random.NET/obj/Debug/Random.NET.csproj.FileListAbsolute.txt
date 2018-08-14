@@ -6,3 +6,10 @@ C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Random.NET\Rando
 C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Random.NET\Random.NET\obj\Debug\Random.NET.csproj.CopyComplete
 C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Random.NET\Random.NET\obj\Debug\Random.NET.dll
 C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Random.NET\Random.NET\obj\Debug\Random.NET.pdb
+C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\bin\Debug\Random.NET.dll
+C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\bin\Debug\Random.NET.pdb
+C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\obj\Debug\Random.NET.csproj.CoreCompileInputs.cache
+C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\obj\Debug\Random.NET.csproj.CopyComplete
+C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\obj\Debug\Random.NET.dll
+C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\obj\Debug\Random.NET.pdb

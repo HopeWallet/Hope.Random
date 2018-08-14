@@ -44,11 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\AdvancedSecureRandom.cs" />
+    <Compile Include="src\Integers\RandomInt.cs" />
+    <Compile Include="src\Integers\RandomIntBase.cs" />
+    <Compile Include="src\Secure Random\AdvancedSecureRandom.cs" />
+    <Compile Include="src\Secure Random\IRandomSeed.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="src\Bytes\" />
+    <Folder Include="src\Strings\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

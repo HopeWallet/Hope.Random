@@ -5,8 +5,12 @@ using Org.BouncyCastle.Security;
 using System;
 using System.Text;
 
-namespace RandomNET
+namespace RandomNET.Secure
 {
+    /// <summary>
+    /// Class which implements a more advanced <see cref="SecureRandom"/>.
+    /// <para> Can be initialized with an extra seed(s). </para>
+    /// </summary>
     public sealed class AdvancedSecureRandom : Random
     {
         private readonly SecureRandom secureRandom;
@@ -113,9 +117,23 @@ namespace RandomNET
             IRandomGenerator randomGenerator = new DigestRandomGenerator(randomDigest);
 
             if (seedData == null || seedData.Length == 0)
+            {
                 randomGenerator.AddSeedMaterial(SecureRandom.GetNextBytes(new SecureRandom(), 16));
+            }
             else
-                foreach (var seed in seedData) randomGenerator.AddSeedMaterial(seed.GetType() == typeof(byte[]) ? (byte[])seed : Encoding.UTF8.GetBytes(seed.ToString()));
+            {
+                foreach (var seed in seedData)
+                {
+                    Type seedType = seed.GetType();
+                    byte[] byteData = seedType == typeof(byte[])
+                        ? (byte[])seed
+                        : seed is IRandomSeed
+                            ? ((IRandomSeed)seed).Seed
+                            : Encoding.UTF8.GetBytes(seed.ToString());
+
+                    randomGenerator.AddSeedMaterial(byteData);
+                }
+            }
 
             return new SecureRandom(randomGenerator);
         }
