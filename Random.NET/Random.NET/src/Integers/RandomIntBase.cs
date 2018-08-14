@@ -2,7 +2,7 @@
 using RandomNET.Secure;
 using System.Text;
 
-namespace RandomNET.Integers
+namespace RandomNET.Integers.Abstract
 {
     /// <summary>
     /// Base class used for generating random integers.
@@ -86,7 +86,7 @@ namespace RandomNET.Integers
         /// <param name="minValue"> The inclusive minimum value of the random integer. </param>
         /// <param name="maxValue"> The exclusive maximum value of the random integer. </param>
         /// <returns> The randomly generated integer. </returns>
-        private static int InternalGetInt(byte[] seed, int? minValue, int? maxValue) => GetInt(seed, minValue, maxValue, new T());
+        private static int InternalGetInt(byte[] seed, int? minValue, int? maxValue) => InternalGetInt(seed, minValue, maxValue, new T());
 
         /// <summary>
         /// Gets the next random integer given the <see cref="IDigest"/> hash function to use.
@@ -96,7 +96,7 @@ namespace RandomNET.Integers
         /// <param name="maxValue"> The exclusive maximum value of the random integer. </param>
         /// <param name="digest"> The <see cref="IDigest"/> to use to derive our random integer. </param>
         /// <returns> The randomly generated integer. </returns>
-        private static int GetInt(byte[] seed, int? minValue, int? maxValue, IDigest digest)
+        private static int InternalGetInt(byte[] seed, int? minValue, int? maxValue, IDigest digest)
         {
             AdvancedSecureRandom secureRandom = (seed == null ? new AdvancedSecureRandom(digest) : new AdvancedSecureRandom(digest, seed));
 

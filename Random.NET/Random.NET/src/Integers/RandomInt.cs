@@ -1,9 +1,9 @@
 ﻿using Org.BouncyCastle.Crypto.Digests;
+using RandomNET.Integers.Abstract;
+using System;
 
 namespace RandomNET.Integers
 {
-    using FastRandom = System.Random;
-
     /// <summary>
     /// Utility class used for generating random int data.
     /// </summary>
@@ -159,7 +159,7 @@ namespace RandomNET.Integers
             /// <returns> The randomly generated integer. </returns>
             private static int InternalGetInt(int? seed, int? minValue, int? maxValue)
             {
-                FastRandom random = (seed.HasValue ? new FastRandom(seed.Value) : new FastRandom());
+                Random random = (seed.HasValue ? new Random(seed.Value) : new Random());
 
                 if (minValue.HasValue && maxValue.HasValue)
                     return random.Next(minValue.Value, maxValue.Value);

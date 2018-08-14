@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\RandomIntTests.cs" />
+    <Compile Include="src\RandomStringTests.cs" />
     <Compile Include="src\Secure Random\AdvancedSecureRandomTests.cs" />
     <Compile Include="src\Secure Random\RandomSeedTests.cs" />
   </ItemGroup>

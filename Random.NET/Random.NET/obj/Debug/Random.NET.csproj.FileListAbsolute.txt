@@ -13,3 +13,4 @@ C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NE
 C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\obj\Debug\Random.NET.csproj.CopyComplete
 C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\obj\Debug\Random.NET.dll
 C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\obj\Debug\Random.NET.pdb
+C:\Users\Matthew LeLiever\Documents\Visual Studio 2017\Projects\Github\Random.NET\Random.NET\Random.NET\obj\Debug\Random.NET.csprojAssemblyReference.cache
