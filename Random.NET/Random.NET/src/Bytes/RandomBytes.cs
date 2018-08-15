@@ -1,8 +1,8 @@
 ﻿using Org.BouncyCastle.Crypto.Digests;
-using RandomNET.Bytes.Abstract;
+using RandomNet.Bytes.Abstract;
 using System;
 
-namespace RandomNET.Bytes
+namespace RandomNet.Bytes
 {
     /// <summary>
     /// Utility class for generating random byte data.

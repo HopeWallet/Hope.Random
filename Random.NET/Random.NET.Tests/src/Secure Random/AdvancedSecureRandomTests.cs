@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Org.BouncyCastle.Crypto.Digests;
-using RandomNET.Secure;
+using RandomNet.Secure;
 
 namespace RandomNETTests
 {

@@ -1,8 +1,8 @@
 ﻿using Org.BouncyCastle.Crypto.Digests;
-using RandomNET.Integers.Abstract;
+using RandomNet.Integers.Abstract;
 using System;
 
-namespace RandomNET.Integers
+namespace RandomNet.Integers
 {
     /// <summary>
     /// Utility class used for generating random int data.

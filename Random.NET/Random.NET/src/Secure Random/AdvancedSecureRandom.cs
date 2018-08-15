@@ -5,7 +5,7 @@ using Org.BouncyCastle.Security;
 using System;
 using System.Text;
 
-namespace RandomNET.Secure
+namespace RandomNet.Secure
 {
     /// <summary>
     /// Class which implements a more advanced <see cref="SecureRandom"/>.

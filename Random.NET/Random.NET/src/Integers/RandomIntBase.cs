@@ -1,8 +1,8 @@
 ﻿using Org.BouncyCastle.Crypto;
-using RandomNET.Secure;
+using RandomNet.Secure;
 using System.Text;
 
-namespace RandomNET.Integers.Abstract
+namespace RandomNet.Integers.Abstract
 {
     /// <summary>
     /// Base class used for generating random integers.

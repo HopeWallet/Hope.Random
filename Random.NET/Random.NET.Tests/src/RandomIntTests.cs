@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RandomNET.Integers;
+using RandomNet.Integers;
 
 namespace RandomNETTests
 {

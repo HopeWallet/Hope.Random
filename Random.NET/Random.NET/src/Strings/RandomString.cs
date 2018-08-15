@@ -1,8 +1,8 @@
 ﻿using Org.BouncyCastle.Crypto.Digests;
-using RandomNET.Strings.Abstract;
+using RandomNet.Strings.Abstract;
 using System;
 
-namespace RandomNET.Strings
+namespace RandomNet.Strings
 {
     /// <summary>
     /// Utility class used for generating random string data.

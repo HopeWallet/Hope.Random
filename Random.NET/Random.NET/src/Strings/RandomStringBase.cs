@@ -1,9 +1,9 @@
 ﻿using Org.BouncyCastle.Crypto;
-using RandomNET.Secure;
+using RandomNet.Secure;
 using System;
 using System.Text;
 
-namespace RandomNET.Strings.Abstract
+namespace RandomNet.Strings.Abstract
 {
     /// <summary>
     /// Base class used for generating random strings.

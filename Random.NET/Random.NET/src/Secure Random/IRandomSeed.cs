@@ -1,4 +1,4 @@
-﻿namespace RandomNET.Secure
+﻿namespace RandomNet.Secure
 {
     /// <summary>
     /// Interface which classes can inherit if they want to use a class instance as a seed.
