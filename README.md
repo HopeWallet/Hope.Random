@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Hope.Random/Hope_Background.png?raw=true" alt="Hope" align="center" width="785px" height="328px"/>
+</p>
+
 # Hope.Random
 
 Hope.Random is a simple random data library which features fast random data generation as well as cryptographically secure random generation with the help of the Bouncy Castle Crypto library.
@@ -65,6 +69,12 @@ int randomInt = secureRandom.Next();
 ```
 
 See the [Hope.Random.Tests](https://github.com/HopeWallet/Hope.Random/tree/master/Hope.Random/Hope.Random.Tests) folder for more ```AdvancedSecureRandom``` tests.
+
+## Contributing
+
+Contributions are always welcome! Whether it has to do with code refactoring, feature addition, or bugs - all are appreciated!
+
+Create an [issue](https://github.com/HopeWallet/Hope.Random/issues) and create pull requests, and they will all be taken a look at!
 
 ## Final Words
 
