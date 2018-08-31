@@ -2,6 +2,13 @@
   <img src="Hope.Random/Hope_Background.png?raw=true" alt="Hope" align="center" width="785px" height="328px"/>
 </p>
 
+| Code Quality |
+| :----|
+| [![CodeFactor][0]][1] |
+
+[0]: https://www.codefactor.io/repository/github/hopewallet/hope.random/badge
+[1]: https://www.codefactor.io/repository/github/hopewallet/hope.random
+
 # Hope.Random
 
 Hope.Random is a simple random data library which features fast random data generation as well as cryptographically secure random generation with the help of the Bouncy Castle Crypto library.
