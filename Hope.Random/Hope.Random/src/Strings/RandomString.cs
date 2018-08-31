@@ -148,7 +148,7 @@ namespace Hope.Random.Strings
                 (seed.HasValue ? new FastRandom(seed.Value) : new FastRandom()).NextBytes(bytes = new byte[length]);
 
                 string randString = Convert.ToBase64String(bytes);
-                return randString.Length > length ? randString.Substring(0, length) : randString; ;
+                return randString.Length > length ? randString.Substring(0, length) : randString;
             }
         }
     }
