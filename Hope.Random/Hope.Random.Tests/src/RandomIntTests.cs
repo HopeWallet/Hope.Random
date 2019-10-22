@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Org.BouncyCastle.Crypto.Digests;
 using Hope.Random;
-using Hope.Random.Integers;
+using Hope.Random.Numbers;
 
 namespace Hope.RandomTests
 {
