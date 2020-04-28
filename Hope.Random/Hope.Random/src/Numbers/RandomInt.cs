@@ -98,7 +98,7 @@ namespace Hope.Random.Numbers
             /// </summary>
             public sealed class Whirlpool : SecureRandomIntBase<WhirlpoolDigest> { }
         }
- 
+
         /// <summary>
         /// Class which generates random integers using an insecure, yet very fast algorithm. 
         /// <para> Should only be used if the random integers do not need to be secure. </para>

@@ -1,0 +1,6 @@
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\Github\Hope.Random\Hope.Random\Hope.Random\bin\Debug\netcoreapp2.2\Hope.Random.deps.json
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\Github\Hope.Random\Hope.Random\Hope.Random\bin\Debug\netcoreapp2.2\Hope.Random.dll
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\Github\Hope.Random\Hope.Random\Hope.Random\bin\Debug\netcoreapp2.2\Hope.Random.pdb
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\Github\Hope.Random\Hope.Random\Hope.Random\obj\Debug\netcoreapp2.2\Hope.Random.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\Github\Hope.Random\Hope.Random\Hope.Random\obj\Debug\netcoreapp2.2\Hope.Random.dll
+C:\Users\Matthew\Documents\Visual Studio 2017\Projects\Github\Hope.Random\Hope.Random\Hope.Random\obj\Debug\netcoreapp2.2\Hope.Random.pdb

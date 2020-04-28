@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Hope.Random/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Hope.Random.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hope.Random.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Hope.Random/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Hope.Random.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hope.Random.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Hope.Random/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Hope.Random.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hope.Random.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Hope.Random/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "compile": {
+          "bin/placeholder/Hope.Random.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hope.Random.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hope.Random/1.0.0": {
+      "type": "project",
+      "path": "../Hope.Random/Hope.Random.csproj",
+      "msbuildProject": "../Hope.Random/Hope.Random.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Hope.Random >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Matthew\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Matthew\\Documents\\Visual Studio 2017\\Projects\\Github\\Hope.Random\\Hope.Random\\Hope.Random.Tests\\Hope.Random.Tests.csproj",
+      "projectName": "Hope.Random.Tests",
+      "projectPath": "C:\\Users\\Matthew\\Documents\\Visual Studio 2017\\Projects\\Github\\Hope.Random\\Hope.Random\\Hope.Random.Tests\\Hope.Random.Tests.csproj",
+      "packagesPath": "C:\\Users\\Matthew\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Matthew\\Documents\\Visual Studio 2017\\Projects\\Github\\Hope.Random\\Hope.Random\\Hope.Random.Tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Matthew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\Users\\Matthew\\Documents\\Visual Studio 2017\\Projects\\Github\\Hope.Random\\Hope.Random\\Hope.Random\\Hope.Random.csproj": {
+              "projectPath": "C:\\Users\\Matthew\\Documents\\Visual Studio 2017\\Projects\\Github\\Hope.Random\\Hope.Random\\Hope.Random\\Hope.Random.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
